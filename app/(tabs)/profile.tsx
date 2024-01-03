@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
 // create a component
-const Page = () => {
+const Profile = () => {
     return (
         <View style={styles.container}>
-            <Text>Page</Text>
+            <Text>Profile</Text>
         </View>
     );
 };
@@ -17,8 +17,9 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+        backgroundColor: '#2c3e50',
     },
 });
 
 //make this component available to the app
-export default Page;
+export default Profile;
